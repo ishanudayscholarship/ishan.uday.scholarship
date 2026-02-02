@@ -10,34 +10,60 @@
 </head>
 <body>
 
-<header class="top-header">
-    <h1>Admin Panel</h1>
-    <p>Update Ishan Uday Scholarship Information</p>
-</header>
+<!-- ================= ADMIN LOGIN LOCK ================= -->
+<section id="lockBox" class="section">
+    <h2>🔒 Admin Login</h2>
+    <p>Authorized access only</p>
 
-<section class="section">
+    <input
+        type="password"
+        id="adminPassword"
+        placeholder="Enter Admin Password"
+    >
 
-<h2>Update Website Content</h2>
+    <button onclick="unlockAdmin()">Login</button>
+</section>
 
-<label>Scrolling Notice (Top Line)</label>
-<textarea id="noticeInput" placeholder="Latest notice for students"></textarea>
+<!-- ================= ADMIN PANEL ================= -->
+<section id="adminPanel" class="section" style="display:none;">
 
-<label>About Scholarship</label>
-<textarea id="aboutInput" placeholder="About Ishan Uday Scholarship"></textarea>
+    <h2>Update Website Content</h2>
 
-<label>Eligibility</label>
-<textarea id="eligibilityInput" placeholder="Eligibility criteria"></textarea>
+    <label>Scrolling Notice (Top Line)</label>
+    <textarea
+        id="noticeInput"
+        placeholder="This notice will scroll on the website"
+    ></textarea>
 
-<label>Important Dates</label>
-<textarea id="datesInput" placeholder="Application dates and deadlines"></textarea>
+    <label>About Ishan Uday Scholarship</label>
+    <textarea
+        id="aboutInput"
+        placeholder="About scholarship details"
+    ></textarea>
 
-<label>Useful Links</label>
-<textarea id="linksInput" placeholder="NSP, UGC, official links"></textarea>
+    <label>Eligibility Criteria</label>
+    <textarea
+        id="eligibilityInput"
+        placeholder="Eligibility rules"
+    ></textarea>
 
-<button onclick="saveContent()">Save Updates</button>
+    <label>Important Dates</label>
+    <textarea
+        id="datesInput"
+        placeholder="Application dates and deadlines"
+    ></textarea>
+
+    <label>Useful Links</label>
+    <textarea
+        id="linksInput"
+        placeholder="NSP, UGC, official links"
+    ></textarea>
+
+    <button onclick="saveContent()">Save All Updates</button>
 
 </section>
 
+<!-- ================= FOOTER ================= -->
 <footer class="footer">
     <p>
         Admin Access Only  

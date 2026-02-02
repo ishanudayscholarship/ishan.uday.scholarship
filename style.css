@@ -1,16 +1,16 @@
 /* =====================================================
    ISHAN UDAY SCHOLARSHIP – STYLE.CSS
-   Professional | Educational | Clean | Colorful
+   Professional | Educational | Multi-Color
    ===================================================== */
 
-/* ---------------- RESET ---------------- */
+/* ---------- RESET ---------- */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* ---------------- BODY ---------------- */
+/* ---------- BODY ---------- */
 body {
     font-family: "Segoe UI", Arial, sans-serif;
     background: linear-gradient(180deg, #eef3fb, #ffffff);
@@ -18,7 +18,7 @@ body {
     line-height: 1.7;
 }
 
-/* ---------------- SCROLLING NOTICE ---------------- */
+/* ---------- SCROLLING NOTICE ---------- */
 .notice-bar {
     background: linear-gradient(90deg, #0d47a1, #1565c0);
     color: #ffffff;
@@ -40,7 +40,7 @@ body {
     to { transform: translateX(-100%); }
 }
 
-/* ---------------- HEADER ---------------- */
+/* ---------- HEADER ---------- */
 .top-header {
     background: linear-gradient(90deg, #1b5e20, #2e7d32);
     color: #ffffff;
@@ -59,7 +59,7 @@ body {
     opacity: 0.95;
 }
 
-/* ---------------- NAV BAR ---------------- */
+/* ---------- NAVIGATION ---------- */
 .nav-bar {
     background: linear-gradient(90deg, #ff9800, #f57c00);
     padding: 12px;
@@ -79,7 +79,7 @@ body {
     color: #263238;
 }
 
-/* ---------------- SECTION ---------------- */
+/* ---------- SECTIONS ---------- */
 .section {
     background: #ffffff;
     margin: 20px;
@@ -92,7 +92,7 @@ body {
     background: linear-gradient(135deg, #f1f8ff, #e3f2fd);
 }
 
-/* ---------------- SECTION HEADINGS ---------------- */
+/* ---------- SECTION HEADINGS ---------- */
 .section h2 {
     color: #0d47a1;
     font-size: 24px;
@@ -101,58 +101,13 @@ body {
     padding-left: 12px;
 }
 
-/* ---------------- PARAGRAPH ---------------- */
+/* ---------- TEXT ---------- */
 .section p {
     font-size: 15.5px;
     text-align: justify;
 }
 
-/* ---------------- ADMIN PANEL INPUTS ---------------- */
-label {
-    font-weight: 600;
-    display: block;
-    margin-top: 18px;
-    color: #37474f;
-}
-
-textarea {
-    width: 100%;
-    min-height: 120px;
-    padding: 12px;
-    margin-top: 8px;
-    border-radius: 6px;
-    border: 1px solid #b0bec5;
-    font-size: 14.5px;
-    resize: vertical;
-}
-
-input {
-    width: 100%;
-    padding: 11px;
-    margin-top: 8px;
-    border-radius: 6px;
-    border: 1px solid #b0bec5;
-    font-size: 14.5px;
-}
-
-/* ---------------- BUTTON ---------------- */
-button {
-    margin-top: 18px;
-    background: linear-gradient(90deg, #0d47a1, #1565c0);
-    color: #ffffff;
-    border: none;
-    padding: 12px 22px;
-    border-radius: 6px;
-    font-size: 15px;
-    font-weight: 600;
-    cursor: pointer;
-}
-
-button:hover {
-    background: linear-gradient(90deg, #08306b, #0d47a1);
-}
-
-/* ---------------- FOOTER ---------------- */
+/* ---------- FOOTER ---------- */
 .footer {
     background: linear-gradient(90deg, #263238, #37474f);
     color: #ffffff;
@@ -166,14 +121,7 @@ button:hover {
     color: #ffeb3b;
 }
 
-/* ---------------- ADMIN NOTICE ---------------- */
-.admin-note {
-    font-size: 14px;
-    color: #c62828;
-    margin-top: 10px;
-}
-
-/* ---------------- RESPONSIVE ---------------- */
+/* ---------- RESPONSIVE ---------- */
 @media (max-width: 768px) {
 
     .top-header h1 {
