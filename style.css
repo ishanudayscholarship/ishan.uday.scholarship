@@ -1,0 +1,180 @@
+/* =========================================
+   ISHAN UDAY SCHOLARSHIP – STYLE.CSS
+   Professional | Educational | Colorful
+   ========================================= */
+
+/* ---------- RESET ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- BODY ---------- */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(180deg, #eef3fb, #ffffff);
+    color: #263238;
+    line-height: 1.7;
+}
+
+/* ---------- HEADER ---------- */
+.top-header {
+    background: linear-gradient(90deg, #0d47a1, #1565c0);
+    color: #ffffff;
+    padding: 25px 15px;
+    text-align: center;
+}
+
+.top-header h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+}
+
+.top-header p {
+    font-size: 15px;
+    opacity: 0.95;
+}
+
+/* ---------- NAVIGATION ---------- */
+.nav-bar {
+    background: linear-gradient(90deg, #1b5e20, #2e7d32);
+    padding: 12px;
+    text-align: center;
+}
+
+.nav-bar a {
+    color: #ffffff;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+    color: #ffeb3b;
+}
+
+/* ---------- SECTIONS ---------- */
+.section {
+    padding: 30px 25px;
+    margin: 18px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+}
+
+.section-alt {
+    background: linear-gradient(135deg, #f1f8ff, #e3f2fd);
+}
+
+/* ---------- HEADINGS ---------- */
+.section h2 {
+    color: #0d47a1;
+    margin-bottom: 12px;
+    font-size: 24px;
+    border-left: 5px solid #ff9800;
+    padding-left: 10px;
+}
+
+/* ---------- TEXT ---------- */
+.section p {
+    font-size: 15.5px;
+    text-align: justify;
+}
+
+/* ---------- FOOTER ---------- */
+.footer {
+    background: linear-gradient(90deg, #263238, #37474f);
+    color: #ffffff;
+    text-align: center;
+    padding: 18px 10px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.footer strong {
+    color: #ffeb3b;
+}
+
+/* ---------- LOGIN BOX (ADMIN) ---------- */
+.login-box {
+    max-width: 420px;
+    margin: 70px auto;
+    background: linear-gradient(180deg, #ffffff, #f1f8ff);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.2);
+}
+
+.login-box h2 {
+    text-align: center;
+    color: #0d47a1;
+    margin-bottom: 15px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 11px;
+    margin-top: 12px;
+    border-radius: 6px;
+    border: 1px solid #b0bec5;
+    font-size: 15px;
+}
+
+.login-box button {
+    width: 100%;
+    margin-top: 15px;
+}
+
+/* ---------- BUTTONS ---------- */
+button {
+    background: linear-gradient(90deg, #ff9800, #f57c00);
+    color: #ffffff;
+    border: none;
+    padding: 11px 18px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #ef6c00, #e65100);
+}
+
+/* ---------- ADMIN PANEL TEXTAREA ---------- */
+textarea {
+    width: 100%;
+    min-height: 120px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #b0bec5;
+    font-size: 14.5px;
+}
+
+/* ---------- INPUT ---------- */
+input {
+    font-size: 14.5px;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+
+    .top-header h1 {
+        font-size: 26px;
+    }
+
+    .nav-bar a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    .section {
+        margin: 12px;
+        padding: 22px;
+    }
+}
